@@ -6,7 +6,7 @@
 				"Properties": {
 					"FunctionName" : "pipelineLambda",
 					"Code": {
-						"S3Bucket": "amway-shumais2/lambda/",
+						"S3Bucket": "amway-shumais",
 						"S3Key": "pipelineLambda.zip"
 					},
 					"Role": {
