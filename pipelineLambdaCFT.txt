@@ -6,7 +6,7 @@
 				"Properties": {
 					"FunctionName" : "pipelineLambda",
 					"Code": {
-						"S3Bucket": "amway-shumais",
+						"S3Bucket": "shumais",
 						"S3Key": "pipelineLambda.zip"
 					},
 					"Role": {
@@ -15,7 +15,7 @@
 					"Timeout": 60,
 					"Handler": "lambda_function.lambda_handler",
 					"Runtime": "python3.6",
-					"MemorySize": 300
+					"MemorySize": 256
 				},
 				"DependsOn": "LambdaExecutionRole"
 			},
