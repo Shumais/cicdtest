@@ -15,7 +15,7 @@
 					"Timeout": 60,
 					"Handler": "lambda_function.lambda_handler",
 					"Runtime": "python3.6",
-					"MemorySize": 256
+					"MemorySize": 500
 				},
 				"DependsOn": "LambdaExecutionRole"
 			},
